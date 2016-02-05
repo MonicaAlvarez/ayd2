@@ -1,0 +1,16 @@
+<project name="workspace" default="build" basedir=".">
+<property name="output" location="${basedir}/buildOutput/"/>
+<target name="init">
+<mkdir dir="${output}"/>
+<mkdir dir="${output}/phpcs/"/>
+<mkdir dir="${output}/pdepend/"/>
+</target>
+<target name="build" depends="caja_blanca1">
+</target>
+<target name="caja_blanca1">
+<exec executable="phpunit" failonerror="true">
+<arg line="prueba.php"/>
+</exec>
+</target>
+
+</project>
