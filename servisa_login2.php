@@ -13,7 +13,7 @@ var_dump($_POST);
                 die("Connection failed: " . $conn->connect_error);
             } 
         
-            $sql = "SELECT * FROM usuario WHERE usuario = '".$_POST['user']."' and password = '".$_POST['password']."'";- //guion 
+            $sql = "SELECT * FROM usuario WHERE usuario = '".$_POST['user']."' and password = '".$_POST['password']."'"; //guion 
             //echo $sql;
             $result = $conn->query($sql);
         
