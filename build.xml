@@ -5,12 +5,16 @@
 <mkdir dir="${output}/phpcs/"/>
 <mkdir dir="${output}/pdepend/"/>
 </target>
-<target name="build" depends="caja_blanca1">
+<target name="build" depends="caja_blanca1,caja_blanca2">
 </target>
 <target name="caja_blanca1">
 <exec executable="phpunit" failonerror="true">
 <arg line="prueba.php"/>
 </exec>
 </target>
-
+<target name="caja_blanca2">
+<exec executable="phpunit" failonerror="true">
+<arg line="servisa_1.php"/>
+</exec>
+</target>
 </project>

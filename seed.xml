@@ -1,0 +1,12 @@
+<dataset>
+ <table name="usuario">
+  <column>idusuario</column>
+  <column>usuario</column>
+  <column>password</column>
+  <row>
+   <value>2</value>
+   <value>test</value>
+   <value>test</value>
+  </row>
+ </table>
+</dataset>
