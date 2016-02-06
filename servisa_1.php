@@ -1,7 +1,6 @@
 <?php
     session_start();
-    require_once 'PHPUnit/Autoload.php';
-    
+    //require_once 'PHPUnit/Autoload.php';
     
     class test_servisa_1 extends PHPUnit_Extensions_Database_TestCase{
         
