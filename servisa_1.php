@@ -8,7 +8,7 @@
          public function getConnection() {
             $db = new PDO(
                 "mysql:host=localhost;dbname=c9", 
-                "admin", "admin");sdfjksld
+                "admin", "admin");
             return $this->createDefaultDBConnection($db, "c9");
         }
         
