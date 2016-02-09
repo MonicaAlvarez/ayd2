@@ -7,7 +7,7 @@
         /** @test */
          public function getConnection() {
             $db = new PDO(
-                "mysql:host=https://servisapp-monicaalvarez.c9users.io/;dbname=c9", 
+                "mysql:host=servisapp-monicaalvarez.c9users.io;dbname=c9", 
                 "admin", "admin");
             return $this->createDefaultDBConnection($db, "c9");
         }
